@@ -1,0 +1,8 @@
+{
+    "version": "2.0.0",
+    "tasks": [{
+        "label": "prepack",
+        "command": "npm run prepack", // Could be any other shell command
+        "type": "shell"
+    }]
+}

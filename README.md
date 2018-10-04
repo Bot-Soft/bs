@@ -31,28 +31,8 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`bs hello [FILE]`](#bs-hello-file)
 * [`bs help [COMMAND]`](#bs-help-command)
-
-## `bs hello [FILE]`
-
-describe the command here
-
-```
-USAGE
-  $ bs hello [FILE]
-
-OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
-
-EXAMPLE
-  $ bs hello
-  hello world from ./src/hello.ts!
-```
-
-_See code: [src/commands/hello.ts](https://github.com/Bot-Soft/bs/blob/v0.0.0/src/commands/hello.ts)_
+* [`bs update`](#bs-update)
 
 ## `bs help [COMMAND]`
 
@@ -70,4 +50,18 @@ OPTIONS
 ```
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v2.0.5/src/commands/help.ts)_
+
+## `bs update`
+
+Updates BotSoft chatbot blocks and messages
+
+```
+USAGE
+  $ bs update
+
+EXAMPLE
+  $ bs update
+```
+
+_See code: [src/commands/update.ts](https://github.com/Bot-Soft/bs/blob/v0.0.0/src/commands/update.ts)_
 <!-- commandsstop -->
