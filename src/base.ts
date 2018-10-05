@@ -6,7 +6,7 @@ export default abstract class extends Command {
     userConfig!: any;
 
     async init() {
-        // do some initialization
+        // do some initialization 
         this.userConfig = await fs.readJSON(path.join(__dirname, 'config.json'));
     }
     async catch() {
