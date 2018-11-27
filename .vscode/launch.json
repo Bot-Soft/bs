@@ -10,7 +10,7 @@
     // "preLaunchTask": "prepack",
     "program": "${workspaceFolder}/bin/run",
     "args": [
-      "update"
+      "create"
     ]
   }]
 }
