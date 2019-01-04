@@ -8,7 +8,8 @@ export class Flow {
 
         try {
             cli.action.start('Deploying the flow')
-            let res = await restc.create(config.baseUrl + settings.id + '/flow?' + 'secret=' + settings.secret, flow);
+            let endpoint = config.baseUrl + settings.id + '/flow?' + 'secret=' + settings.secret;
+            let res = await restc.create(endpoint, flow);
             cli.action.stop();
         } catch (error) {
             cli.action.stop(error);

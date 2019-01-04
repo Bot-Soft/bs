@@ -1,3 +1,4 @@
 {
-    "baseUrl": "https://3klcm8k5x0.execute-api.eu-central-1.amazonaws.com/api/bots/"
+    "baseUrl": "https://3klcm8k5x0.execute-api.eu-central-1.amazonaws.com/latest/bots/",
+    "starterKitFlow": "https://raw.githubusercontent.com/Bot-Soft/starter-kit/master/flow.json"
 }

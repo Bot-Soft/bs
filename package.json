@@ -1,8 +1,8 @@
 {
-  "name": "bs",
-  "description": "Command Line Interface for Managing BotSoft chatbots",
-  "version": "0.0.0",
-  "author": "Angel Tsvetkov @angeltsvetkov",
+  "name": "botsoft",
+  "description": "Command Line Interface for managing BotSoft chatbots",
+  "version": "0.0.2",
+  "author": "angel@botsoft.ai",
   "bin": {
     "bs": "./bin/run"
   },
